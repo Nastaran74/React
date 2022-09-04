@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+}
+
+body {
+    direction: rtl;
+    font-family: 'vazir' !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    background: rgb(194, 194, 194);
+}
+
+.App {
+    width: 600px;
+    border: 1px solid rgb(121, 117, 117);
+    box-shadow: 5px 5px 15px gray;
+}
+
+.App h4 {
+    font-size: 20px;
+    padding: 30px 0;
+    color: darkgreen
+}
+
+.App input {
+    border: 3px solid rgb(136, 133, 136);
+    padding: 6px;
+    margin: 10px;
+}
+
+.App button {
+    border: none;
+    background: rgb(128, 128, 128);
+    width: 100px;
+    cursor: pointer;
+    color: #fff;
+    padding: 7px;
+    border: 0.5px solid;
+}
+
+.App p {
+    font-size: 20px;
+    margin-bottom: 50px;
+    text-align: start;
+    padding: 10px
+}

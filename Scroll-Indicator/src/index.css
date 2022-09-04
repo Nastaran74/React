@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+}
+
+body {
+    direction: rtl;
+    font-family: 'vazir' !important;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background: #111;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+}
+
+header ul li {
+    color: aliceblue;
+    margin-left: 7px;
+    padding: 22px 10px;
+}
+
+.wraooer {
+    position: sticky;
+    top: 0;
+    right: 0;
+}
+
+.progress {
+    width: 100%;
+    height: 12px;
+    background: #999;
+    z-index: 1;
+}
+
+.progressBarMain {
+    width: 0;
+    height: 12px;
+    background: crimson;
+}
+
+.content {
+    padding: 20px 200px;
+}
+
+.content p {
+    margin-top: 50px;
+    font-size: 20px;
+}
